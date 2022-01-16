@@ -1,0 +1,184 @@
+/* =======================
+All Common Css Start
+========================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}   
+.no_margin{
+    margin-right: 0 !important;
+}    
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+ */
+/* =======================
+All Common Css End
+========================== */
+
+
+/* =======================
+     Navbar Start
+========================== */
+#navigation{
+    background: #555;
+    height: 90px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.main_menu .logo{
+    width: 170px;
+    height: 90px;
+    /* background: red; */
+    float: left;
+    padding-top: 32px;
+    padding-left: 27px;
+}
+.main_menu .menu{
+    width: 1000px;
+    height: 90px;
+    /* background: green; */
+    float: left;
+}
+.main_menu .menu ul{
+    float: right;
+}
+.main_menu .menu ul li{
+    margin-left: 40px;
+    line-height: 90px;
+    display: inline-block;
+}
+.main_menu .menu ul li a{
+    color: #f5f5f5;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    transition: all linear .3s;
+}
+.main_menu .menu ul li .active{
+    color: #27b1d0;
+}
+.main_menu .menu ul li a:hover{
+    color: #27b1d0;
+}
+
+/* =======================
+     Navbar End
+========================== */
+/* =======================
+     Banner Start
+========================== */
+#banner{
+    padding-top: 321px;
+    padding-bottom: 243px;
+    background: url(../Images/Baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.banner_text h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+    padding: 4px;
+}
+.banner_text p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/* =======================
+     Banner End
+========================== */
+/* =======================
+     Service Start
+========================== */
+#service{
+    padding-top: 80px;
+    padding-bottom: 83px;
+}
+.service_heading{
+    text-align: center;
+}
+.service_heading h2{
+    color: #444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+.service_heading p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 83px;
+}
+.service_heading h3{
+    color: #666666;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.service_main_item .item_1{
+    float: left;
+    text-align: center;
+}
+.service_main_item .item_2{
+    float: left;
+}
+.service_main_item .item_3{
+    float: left;
+
+}
+/* .service_main_item .item_1{
+    text-align: center;
+}
+.service_main_item .item_2{
+    text-align: center;
+}
+.service_main_item .item_3{
+    text-align: center;
+
+}.service_main_item .item_4{
+    text-align: center;
+} */
+
+/* =======================
+     SErvice End
+========================== */
